@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loseit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission 
+        android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.loseit.CCS_Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.App_Logo"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">      
+        </activity>  
+        
+        <activity
+            android:name="com.example.loseit.Question_01"
+            android:label="@string/q_01"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.Question_02"
+            android:label="@string/q_02"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+       <activity
+            android:name="com.example.loseit.Question_03"
+            android:label="@string/q_03"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.Question_04"
+            android:label="@string/q_04"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.Question_05"
+            android:label="@string/q_05"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        "
+        <activity
+            android:name="com.example.loseit.MainActivity"
+            android:label="@string/name_home" >
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.Routines"
+            android:label="@string/name_routines" >
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.Routines_My"
+            android:label="@string/name_routines_my" >
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.Exercises"
+            android:label="@string/name_exercises" >
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.About_Us"
+            android:label="@string/name_about_us" >
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.Settings"
+            android:label="@string/name_settings" >
+        </activity>
+        
+        <activity
+            android:name="com.example.loseit.Exercises_Instructions" >         
+        </activity>
+        
+    </application>
+
+</manifest>
